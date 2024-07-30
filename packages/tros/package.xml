@@ -4,7 +4,7 @@
   <name>tros</name>
   <version>2.2.0</version>
   <description>TogetheROS Bot</description>
-  <maintainer email="zhuo.wang@horizon.cc">zhuo</maintainer>
+  <maintainer email="zhuo.wang@d-robotics.cc">zhuo</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

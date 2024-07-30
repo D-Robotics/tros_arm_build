@@ -62,7 +62,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # add tros depend file
-RUN echo "yaml https://raw.githubusercontent.com/HorizonRDK/trosdep/develop/humble/trosdep.yaml" > \
+RUN echo "yaml https://raw.githubusercontent.com/D-Robotics/trosdep/develop/humble/trosdep.yaml" > \
     /etc/ros/rosdep/sources.list.d/20-tros.list
 
 ENV DEB_BUILD_OPTIONS nocheck
@@ -75,12 +75,12 @@ WORKDIR /tmp
 ARG GIT_TOKEN
 ARG USERNAME
 
-RUN git clone -b master https://${USERNAME}:${GIT_TOKEN}@github.com/HorizonRDK/bloom.git \
+RUN git clone -b master https://${USERNAME}:${GIT_TOKEN}@github.com/D-Robotics/bloom.git \
     && cd bloom \
     && python3 setup.py install \
     && cd .. && rm -rf bloom
 
-RUN git clone -b develop https://${USERNAME}:${GIT_TOKEN}@github.com/HorizonRDK/tros_release.git \
+RUN git clone -b develop https://${USERNAME}:${GIT_TOKEN}@github.com/D-Robotics/tros_release.git \
     && cd tros_release \
     && python3 setup.py install \
     && cd .. \
