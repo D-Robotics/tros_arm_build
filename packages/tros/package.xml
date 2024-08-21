@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>tros</name>
-  <version>2.2.0</version>
+  <version>2.3.0</version>
   <description>TogetheROS Bot</description>
   <maintainer email="zhuo.wang@d-robotics.cc">zhuo</maintainer>
   <license>Apache License 2.0</license>
@@ -52,6 +52,38 @@
   <depend condition="$PLATFORM == X3">parking_search</depend>
   <depend condition="$PLATFORM == X3">rgbd_sensor</depend>
   <depend condition="$PLATFORM == X3">websocket</depend>
+
+  <depend condition="$PLATFORM == X5">ai_msgs</depend>
+  <depend condition="$PLATFORM == X5">audio_msg</depend>
+  <depend condition="$PLATFORM == X5">body_tracking</depend>
+  <depend condition="$PLATFORM == X5">dnn_benchmark_example</depend>
+  <depend condition="$PLATFORM == X5">dnn_node</depend>
+  <depend condition="$PLATFORM == X5">dnn_node_example</depend>
+  <depend condition="$PLATFORM == X5">dnn_node_sample</depend>
+  <depend condition="$PLATFORM == X5">elevation_net</depend>
+  <depend condition="$PLATFORM == X5">gesture_control</depend>
+  <depend condition="$PLATFORM == X5">hand_gesture_detection</depend>
+  <depend condition="$PLATFORM == X5">hand_lmk_detection</depend>
+  <depend condition="$PLATFORM == X5">hbm_img_msgs</depend>
+  <depend condition="$PLATFORM == X5">hobot_codec</depend>
+  <depend condition="$PLATFORM == X5">hobot_cv</depend>
+  <depend condition="$PLATFORM == X5">hobot_falldown_detection</depend>
+  <depend condition="$PLATFORM == X5">hobot_image_publisher</depend>
+  <depend condition="$PLATFORM == X5">hobot_llm</depend>
+  <depend condition="$PLATFORM == X5">hobot_mot</depend>
+  <depend condition="$PLATFORM == X5">hobot_shm</depend>
+  <depend condition="$PLATFORM == X5">hobot_usb_cam</depend>
+  <depend condition="$PLATFORM == X5">hobot_vio</depend>
+  <depend condition="$PLATFORM == X5">hobot_visualization</depend>
+  <depend condition="$PLATFORM == X5">img_msgs</depend>
+  <depend condition="$PLATFORM == X5">imu_sensor</depend>
+  <depend condition="$PLATFORM == X5">mipi_cam</depend>
+  <depend condition="$PLATFORM == X5">mono2d_body_detection</depend>
+  <depend condition="$PLATFORM == X5">mono2d_trash_detection</depend>
+  <depend condition="$PLATFORM == X5">mono3d_indoor_detection</depend>
+  <depend condition="$PLATFORM == X5">parking_perception</depend>
+  <depend condition="$PLATFORM == X5">parking_search</depend>
+  <depend condition="$PLATFORM == X5">websocket</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
