@@ -53,6 +53,10 @@
   <depend condition="$PLATFORM == X3">rgbd_sensor</depend>
   <depend condition="$PLATFORM == X3">websocket</depend>
   <depend condition="$PLATFORM == X3">hobot_rtsp_client</depend>
+  <depend condition="$PLATFORM == X3">tros_perception_fusion</depend>
+  <depend condition="$PLATFORM == X3">tros_lowpass_filter</depend>
+  <depend condition="$PLATFORM == X3">face_age_detection</depend>
+  <depend condition="$PLATFORM == X3">face_landmarks_detection</depend>
 
   <depend condition="$PLATFORM == X5">ai_msgs</depend>
   <depend condition="$PLATFORM == X5">audio_msg</depend>
@@ -93,8 +97,13 @@
   <depend condition="$PLATFORM == X5">clip_encode_image</depend>
   <depend condition="$PLATFORM == X5">clip_encode_text</depend>
   <depend condition="$PLATFORM == X5">clip_manage</depend>
-  <depend condition="$PLATFORM == X5">stereonet_model</depend>
+  <depend condition="$PLATFORM == X5">hobot_stereonet</depend>
   <depend condition="$PLATFORM == X5">hobot_rtsp_client</depend>
+  <depend condition="$PLATFORM == X5">tros_perception_fusion</depend>
+  <depend condition="$PLATFORM == X5">tros_lowpass_filter</depend>
+  <depend condition="$PLATFORM == X5">face_age_detection</depend>
+  <depend condition="$PLATFORM == X5">face_landmarks_detection</depend>
+  <depend condition="$PLATFORM == X5">hobot_stereonet_utils</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
