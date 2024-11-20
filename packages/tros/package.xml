@@ -75,7 +75,6 @@
   <depend condition="$PLATFORM == X5">hobot_falldown_detection</depend>
   <depend condition="$PLATFORM == X5">hobot_image_publisher</depend>
   <depend condition="$PLATFORM == X5">hobot_hdmi</depend>
-  <depend condition="$PLATFORM == X5">hobot_llm</depend>
   <depend condition="$PLATFORM == X5">hobot_mot</depend>
   <depend condition="$PLATFORM == X5">hobot_shm</depend>
   <depend condition="$PLATFORM == X5">hobot_usb_cam</depend>
