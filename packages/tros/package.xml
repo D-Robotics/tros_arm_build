@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>tros</name>
-  <version>2.3.1</version>
+  <version>2.3.2</version>
   <description>TogetheROS Bot</description>
   <maintainer email="zhuo.wang@d-robotics.cc">zhuo</maintainer>
   <license>Apache License 2.0</license>
@@ -60,6 +60,8 @@
 
   <depend condition="$PLATFORM == X5">ai_msgs</depend>
   <depend condition="$PLATFORM == X5">audio_msg</depend>
+  <depend condition="$PLATFORM == X5">audio_control</depend>
+  <depend condition="$PLATFORM == X5">audio_tracking</depend>
   <depend condition="$PLATFORM == X5">body_tracking</depend>
   <depend condition="$PLATFORM == X5">dnn_benchmark_example</depend>
   <depend condition="$PLATFORM == X5">dnn_node</depend>
@@ -70,6 +72,7 @@
   <depend condition="$PLATFORM == X5">hand_gesture_detection</depend>
   <depend condition="$PLATFORM == X5">hand_lmk_detection</depend>
   <depend condition="$PLATFORM == X5">hbm_img_msgs</depend>
+  <depend condition="$PLATFORM == X5">hobot_audio</depend>
   <depend condition="$PLATFORM == X5">hobot_codec</depend>
   <depend condition="$PLATFORM == X5">hobot_cv</depend>
   <depend condition="$PLATFORM == X5">hobot_falldown_detection</depend>
@@ -103,6 +106,7 @@
   <depend condition="$PLATFORM == X5">face_age_detection</depend>
   <depend condition="$PLATFORM == X5">face_landmarks_detection</depend>
   <depend condition="$PLATFORM == X5">hobot_stereonet_utils</depend>
+  <depend condition="$PLATFORM == X5">hobot_zed_cam</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
