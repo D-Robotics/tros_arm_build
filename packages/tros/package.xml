@@ -93,6 +93,7 @@
   <depend condition="$PLATFORM == X5">parking_search</depend>
   <depend condition="$PLATFORM == X5">websocket</depend>
   <depend condition="$PLATFORM == X5">hobot_yolo_world</depend>
+  <depend condition="$PLATFORM == X5">hobot_dosod</depend>
   <depend condition="$PLATFORM == X5">mono_mobilesam</depend>
   <depend condition="$PLATFORM == X5">mono_pwcnet</depend>
   <depend condition="$PLATFORM == X5">clip_msgs</depend>
