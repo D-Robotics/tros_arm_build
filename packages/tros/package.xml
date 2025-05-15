@@ -129,10 +129,9 @@
   <depend condition="$PLATFORM == S100">hobot_stereonet_utils</depend>
   <depend condition="$PLATFORM == S100">hobot_bev</depend>
   <depend condition="$PLATFORM == S100">hobot_centerpoint</depend>
-  <depend condition="$PLATFORM == S100">hobot_llamacpp_</depend>
+  <depend condition="$PLATFORM == S100">hobot_llamacpp</depend>
   <depend condition="$PLATFORM == S100">hobot_zed_cam</depend>
   <depend condition="$PLATFORM == S100">hobot_tts</depend>
-  <depend condition="$PLATFORM == S100">hobot_usb-cam</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
