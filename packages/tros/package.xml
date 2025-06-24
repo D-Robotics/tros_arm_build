@@ -123,6 +123,7 @@
   <depend condition="$PLATFORM == S100">img_msgs</depend>
   <depend condition="$PLATFORM == S100">imu_sensor</depend>
   <depend condition="$PLATFORM == S100">mipi_cam</depend>
+  <depend condition="$PLATFORM == S100">mono2d_body_detection</depend>
   <depend condition="$PLATFORM == S100">websocket</depend>
   <depend condition="$PLATFORM == S100">hobot_stereonet</depend>
   <depend condition="$PLATFORM == S100">hobot_rtsp_client</depend>
