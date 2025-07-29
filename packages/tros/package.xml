@@ -108,6 +108,9 @@
   <depend condition="$PLATFORM == X5">face_landmarks_detection</depend>
   <depend condition="$PLATFORM == X5">hobot_stereonet_utils</depend>
   <depend condition="$PLATFORM == X5">hobot_zed_cam</depend>
+  <depend condition="$PLATFORM == X5">dstereo_occnet</depend>
+  <depend condition="$PLATFORM == X5">mono_edgesam</depend>
+  <depend condition="$PLATFORM == X5">reid</depend>
 
   <depend condition="$PLATFORM == S100">ai_msgs</depend>
   <depend condition="$PLATFORM == S100">audio_msg</depend>
