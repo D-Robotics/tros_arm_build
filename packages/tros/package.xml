@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>tros</name>
-  <version>2.4.1</version>
+  <version>2.4.2</version>
   <description>TogetheROS Bot</description>
   <maintainer email="zhuo.wang@d-robotics.cc">zhuo</maintainer>
   <license>Apache License 2.0</license>
@@ -101,6 +101,7 @@
   <depend condition="$PLATFORM == X5">clip_encode_text</depend>
   <depend condition="$PLATFORM == X5">clip_manage</depend>
   <depend condition="$PLATFORM == X5">hobot_stereonet</depend>
+  <depend condition="$PLATFORM == X5">hobot_llamacpp</depend>
   <depend condition="$PLATFORM == X5">hobot_rtsp_client</depend>
   <depend condition="$PLATFORM == X5">tros_perception_fusion</depend>
   <depend condition="$PLATFORM == X5">tros_lowpass_filter</depend>
@@ -116,6 +117,7 @@
   <depend condition="$PLATFORM == S100">audio_msg</depend>
   <depend condition="$PLATFORM == S100">dnn_node</depend>
   <depend condition="$PLATFORM == S100">dnn_node_example</depend>
+  <depend condition="$PLATFORM == S100">dstereo_occnet</depend>
   <depend condition="$PLATFORM == S100">hbm_img_msgs</depend>
   <depend condition="$PLATFORM == S100">hobot_codec</depend>
   <depend condition="$PLATFORM == S100">hobot_cv</depend>
@@ -127,7 +129,10 @@
   <depend condition="$PLATFORM == S100">imu_sensor</depend>
   <depend condition="$PLATFORM == S100">mipi_cam</depend>
   <depend condition="$PLATFORM == S100">mono2d_body_detection</depend>
+  <depend condition="$PLATFORM == S100">mono_edgesam</depend>
   <depend condition="$PLATFORM == S100">websocket</depend>
+  <depend condition="$PLATFORM == S100">hobot_clip</depend>
+  <depend condition="$PLATFORM == S100">hobot_dosod</depend>
   <depend condition="$PLATFORM == S100">hobot_stereonet</depend>
   <depend condition="$PLATFORM == S100">hobot_rtsp_client</depend>
   <depend condition="$PLATFORM == S100">hobot_stereonet_utils</depend>
