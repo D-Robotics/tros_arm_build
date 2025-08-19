@@ -131,7 +131,10 @@
   <depend condition="$PLATFORM == S100">mono2d_body_detection</depend>
   <depend condition="$PLATFORM == S100">mono_edgesam</depend>
   <depend condition="$PLATFORM == S100">websocket</depend>
-  <depend condition="$PLATFORM == S100">hobot_clip</depend>
+  <depend condition="$PLATFORM == S100">clip_msgs</depend>
+  <depend condition="$PLATFORM == S100">clip_encode_image</depend>
+  <depend condition="$PLATFORM == S100">clip_encode_text</depend>
+  <depend condition="$PLATFORM == S100">clip_manage</depend>
   <depend condition="$PLATFORM == S100">hobot_dosod</depend>
   <depend condition="$PLATFORM == S100">hobot_stereonet</depend>
   <depend condition="$PLATFORM == S100">hobot_rtsp_client</depend>
