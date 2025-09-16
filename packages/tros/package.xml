@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>tros</name>
-  <version>2.4.3</version>
+  <version>2.4.4</version>
   <description>TogetheROS Bot</description>
   <maintainer email="zhuo.wang@d-robotics.cc">zhuo</maintainer>
   <license>Apache License 2.0</license>
@@ -144,6 +144,10 @@
   <depend condition="$PLATFORM == S100">hobot_llamacpp</depend>
   <depend condition="$PLATFORM == S100">hobot_zed_cam</depend>
   <depend condition="$PLATFORM == S100">hobot_tts</depend>
+  <depend condition="$PLATFORM == S100">reid</depend>
+  <depend condition="$PLATFORM == S100">palm_detection_mediapipe</depend>
+  <depend condition="$PLATFORM == S100">hand_landmarks_mediapipe</depend>
+  <depend condition="$PLATFORM == S100">hobot_xlm</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
