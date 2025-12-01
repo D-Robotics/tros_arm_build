@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>tros</name>
-  <version>2.4.5</version>
+  <version>2.5.0</version>
   <description>TogetheROS Bot</description>
   <maintainer email="zhuo.wang@d-robotics.cc">zhuo</maintainer>
   <license>Apache License 2.0</license>
@@ -148,6 +148,41 @@
   <depend condition="$PLATFORM == S100">palm_detection_mediapipe</depend>
   <depend condition="$PLATFORM == S100">hand_landmarks_mediapipe</depend>
   <depend condition="$PLATFORM == S100">hobot_xlm</depend>
+
+  <depend condition="$PLATFORM == S600">ai_msgs</depend>
+  <depend condition="$PLATFORM == S600">audio_msg</depend>
+  <depend condition="$PLATFORM == S600">dnn_node</depend>
+  <depend condition="$PLATFORM == S600">dnn_node_example</depend>
+  <depend condition="$PLATFORM == S600">dstereo_occnet</depend>
+  <depend condition="$PLATFORM == S600">hbm_img_msgs</depend>
+  <depend condition="$PLATFORM == S600">hobot_codec</depend>
+  <depend condition="$PLATFORM == S600">hobot_cv</depend>
+  <depend condition="$PLATFORM == S600">hobot_image_publisher</depend>
+  <depend condition="$PLATFORM == S600">hobot_shm</depend>
+  <depend condition="$PLATFORM == S600">hobot_usb_cam</depend>
+  <depend condition="$PLATFORM == S600">hobot_visualization</depend>
+  <depend condition="$PLATFORM == S600">img_msgs</depend>
+  <depend condition="$PLATFORM == S600">imu_sensor</depend>
+  <depend condition="$PLATFORM == S600">mipi_cam</depend>
+  <depend condition="$PLATFORM == S600">mono2d_body_detection</depend>
+  <depend condition="$PLATFORM == S600">mono_edgesam</depend>
+  <depend condition="$PLATFORM == S600">websocket</depend>
+  <depend condition="$PLATFORM == S600">clip_msgs</depend>
+  <depend condition="$PLATFORM == S600">clip_encode_image</depend>
+  <depend condition="$PLATFORM == S600">clip_encode_text</depend>
+  <depend condition="$PLATFORM == S600">clip_manage</depend>
+  <depend condition="$PLATFORM == S600">hobot_dosod</depend>
+  <depend condition="$PLATFORM == S600">hobot_stereonet</depend>
+  <depend condition="$PLATFORM == S600">hobot_rtsp_client</depend>
+  <depend condition="$PLATFORM == S600">hobot_stereonet_utils</depend>
+  <depend condition="$PLATFORM == S600">hobot_bev</depend>
+  <depend condition="$PLATFORM == S600">hobot_centerpoint</depend>
+  <depend condition="$PLATFORM == S600">hobot_zed_cam</depend>
+  <depend condition="$PLATFORM == S600">hobot_tts</depend>
+  <depend condition="$PLATFORM == S600">reid</depend>
+  <depend condition="$PLATFORM == S600">palm_detection_mediapipe</depend>
+  <depend condition="$PLATFORM == S600">hand_landmarks_mediapipe</depend>
+  <depend condition="$PLATFORM == S600">hobot_xlm</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
