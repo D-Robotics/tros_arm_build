@@ -153,7 +153,6 @@
   <depend condition="$PLATFORM == S600">audio_msg</depend>
   <depend condition="$PLATFORM == S600">dnn_node</depend>
   <depend condition="$PLATFORM == S600">dnn_node_example</depend>
-  <depend condition="$PLATFORM == S600">dstereo_occnet</depend>
   <depend condition="$PLATFORM == S600">hbm_img_msgs</depend>
   <depend condition="$PLATFORM == S600">hobot_codec</depend>
   <depend condition="$PLATFORM == S600">hobot_cv</depend>
@@ -167,12 +166,7 @@
   <depend condition="$PLATFORM == S600">mono2d_body_detection</depend>
   <depend condition="$PLATFORM == S600">mono_edgesam</depend>
   <depend condition="$PLATFORM == S600">websocket</depend>
-  <depend condition="$PLATFORM == S600">clip_msgs</depend>
-  <depend condition="$PLATFORM == S600">clip_encode_image</depend>
-  <depend condition="$PLATFORM == S600">clip_encode_text</depend>
-  <depend condition="$PLATFORM == S600">clip_manage</depend>
   <depend condition="$PLATFORM == S600">hobot_dosod</depend>
-  <depend condition="$PLATFORM == S600">hobot_stereonet</depend>
   <depend condition="$PLATFORM == S600">hobot_rtsp_client</depend>
   <depend condition="$PLATFORM == S600">hobot_stereonet_utils</depend>
   <depend condition="$PLATFORM == S600">hobot_bev</depend>
@@ -180,9 +174,6 @@
   <depend condition="$PLATFORM == S600">hobot_zed_cam</depend>
   <depend condition="$PLATFORM == S600">hobot_tts</depend>
   <depend condition="$PLATFORM == S600">reid</depend>
-  <depend condition="$PLATFORM == S600">palm_detection_mediapipe</depend>
-  <depend condition="$PLATFORM == S600">hand_landmarks_mediapipe</depend>
-  <depend condition="$PLATFORM == S600">hobot_xlm</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
