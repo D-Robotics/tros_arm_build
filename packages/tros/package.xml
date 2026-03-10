@@ -153,7 +153,6 @@
   <depend condition="$PLATFORM == S600">audio_msg</depend>
   <depend condition="$PLATFORM == S600">dnn_node</depend>
   <depend condition="$PLATFORM == S600">dnn_node_example</depend>
-  <depend condition="$PLATFORM == S600">dstereo_occnet</depend>
   <depend condition="$PLATFORM == S600">hbm_img_msgs</depend>
   <depend condition="$PLATFORM == S600">hobot_codec</depend>
   <depend condition="$PLATFORM == S600">hobot_cv</depend>
