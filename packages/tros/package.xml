@@ -168,9 +168,7 @@
   <depend condition="$PLATFORM == S600">mono_edgesam</depend>
   <depend condition="$PLATFORM == S600">websocket</depend>
   <depend condition="$PLATFORM == S600">hobot_dosod</depend>
-  <depend condition="$PLATFORM == S600">hobot_stereonet</depend>
   <depend condition="$PLATFORM == S600">hobot_rtsp_client</depend>
-  <depend condition="$PLATFORM == S600">hobot_stereonet_utils</depend>
   <depend condition="$PLATFORM == S600">hobot_bev</depend>
   <depend condition="$PLATFORM == S600">hobot_centerpoint</depend>
   <depend condition="$PLATFORM == S600">hobot_zed_cam</depend>
