@@ -112,6 +112,8 @@
   <depend condition="$PLATFORM == X5">dstereo_occnet</depend>
   <depend condition="$PLATFORM == X5">mono_edgesam</depend>
   <depend condition="$PLATFORM == X5">reid</depend>
+  <depend condition="$PLATFORM == X5">palm_detection_mediapipe</depend>
+  <depend condition="$PLATFORM == X5">hand_landmarks_mediapipe</depend>
 
   <depend condition="$PLATFORM == S100">ai_msgs</depend>
   <depend condition="$PLATFORM == S100">audio_msg</depend>
