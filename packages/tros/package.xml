@@ -132,6 +132,8 @@
   <depend condition="$PLATFORM == S100">mipi_cam</depend>
   <depend condition="$PLATFORM == S100">mono2d_body_detection</depend>
   <depend condition="$PLATFORM == S100">mono_edgesam</depend>
+  <depend condition="$PLATFORM == S100">mono_edgetam_prompt</depend>
+  <depend condition="$PLATFORM == S100">mono_edgetam_track</depend>
   <depend condition="$PLATFORM == S100">websocket</depend>
   <depend condition="$PLATFORM == S100">clip_msgs</depend>
   <depend condition="$PLATFORM == S100">clip_encode_image</depend>
