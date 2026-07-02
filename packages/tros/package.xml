@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>tros</name>
-  <version>2.5.4</version>
+  <version>2.5.5</version>
   <description>TogetheROS Bot</description>
   <maintainer email="zhuo.wang@d-robotics.cc">zhuo</maintainer>
   <license>Apache License 2.0</license>
@@ -143,15 +143,12 @@
   <depend condition="$PLATFORM == S100">hobot_stereonet</depend>
   <depend condition="$PLATFORM == S100">hobot_rtsp_client</depend>
   <depend condition="$PLATFORM == S100">hobot_stereonet_utils</depend>
-  <depend condition="$PLATFORM == S100">hobot_bev</depend>
-  <depend condition="$PLATFORM == S100">hobot_centerpoint</depend>
   <depend condition="$PLATFORM == S100">hobot_llamacpp</depend>
   <depend condition="$PLATFORM == S100">hobot_zed_cam</depend>
   <depend condition="$PLATFORM == S100">hobot_tts</depend>
   <depend condition="$PLATFORM == S100">reid</depend>
   <depend condition="$PLATFORM == S100">palm_detection_mediapipe</depend>
   <depend condition="$PLATFORM == S100">hand_landmarks_mediapipe</depend>
-  <depend condition="$PLATFORM == S100">hobot_xlm</depend>
 
   <depend condition="$PLATFORM == S600">ai_msgs</depend>
   <depend condition="$PLATFORM == S600">audio_msg</depend>
