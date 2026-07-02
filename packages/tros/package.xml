@@ -143,7 +143,6 @@
   <depend condition="$PLATFORM == S100">hobot_stereonet</depend>
   <depend condition="$PLATFORM == S100">hobot_rtsp_client</depend>
   <depend condition="$PLATFORM == S100">hobot_stereonet_utils</depend>
-  <depend condition="$PLATFORM == S100">hobot_llamacpp</depend>
   <depend condition="$PLATFORM == S100">hobot_zed_cam</depend>
   <depend condition="$PLATFORM == S100">hobot_tts</depend>
   <depend condition="$PLATFORM == S100">reid</depend>
