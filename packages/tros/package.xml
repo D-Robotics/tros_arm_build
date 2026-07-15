@@ -77,7 +77,6 @@
   <depend condition="$PLATFORM == X5">hobot_mot</depend>
   <depend condition="$PLATFORM == X5">hobot_shm</depend>
   <depend condition="$PLATFORM == X5">hobot_usb_cam</depend>
-  <depend condition="$PLATFORM == X5">hobot_vio</depend>
   <depend condition="$PLATFORM == X5">hobot_visualization</depend>
   <depend condition="$PLATFORM == X5">img_msgs</depend>
   <depend condition="$PLATFORM == X5">imu_sensor</depend>
