@@ -62,22 +62,18 @@
   <depend condition="$PLATFORM == X5">audio_msg</depend>
   <depend condition="$PLATFORM == X5">audio_control</depend>
   <depend condition="$PLATFORM == X5">audio_tracking</depend>
-  <depend condition="$PLATFORM == X5">body_tracking</depend>
   <depend condition="$PLATFORM == X5">dnn_benchmark_example</depend>
   <depend condition="$PLATFORM == X5">dnn_node</depend>
   <depend condition="$PLATFORM == X5">dnn_node_example</depend>
   <depend condition="$PLATFORM == X5">dnn_node_sample</depend>
   <depend condition="$PLATFORM == X5">elevation_net</depend>
-  <depend condition="$PLATFORM == X5">gesture_control</depend>
   <depend condition="$PLATFORM == X5">hand_gesture_detection</depend>
   <depend condition="$PLATFORM == X5">hand_lmk_detection</depend>
   <depend condition="$PLATFORM == X5">hbm_img_msgs</depend>
-  <depend condition="$PLATFORM == X5">hobot_audio</depend>
   <depend condition="$PLATFORM == X5">hobot_codec</depend>
   <depend condition="$PLATFORM == X5">hobot_cv</depend>
   <depend condition="$PLATFORM == X5">hobot_falldown_detection</depend>
   <depend condition="$PLATFORM == X5">hobot_image_publisher</depend>
-  <depend condition="$PLATFORM == X5">hobot_hdmi</depend>
   <depend condition="$PLATFORM == X5">hobot_mot</depend>
   <depend condition="$PLATFORM == X5">hobot_shm</depend>
   <depend condition="$PLATFORM == X5">hobot_usb_cam</depend>
@@ -89,8 +85,6 @@
   <depend condition="$PLATFORM == X5">mono2d_body_detection</depend>
   <depend condition="$PLATFORM == X5">mono2d_trash_detection</depend>
   <depend condition="$PLATFORM == X5">mono3d_indoor_detection</depend>
-  <depend condition="$PLATFORM == X5">parking_perception</depend>
-  <depend condition="$PLATFORM == X5">parking_search</depend>
   <depend condition="$PLATFORM == X5">websocket</depend>
   <depend condition="$PLATFORM == X5">hobot_yolo_world</depend>
   <depend condition="$PLATFORM == X5">hobot_dosod</depend>
@@ -101,7 +95,6 @@
   <depend condition="$PLATFORM == X5">clip_encode_text</depend>
   <depend condition="$PLATFORM == X5">clip_manage</depend>
   <depend condition="$PLATFORM == X5">hobot_stereonet</depend>
-  <depend condition="$PLATFORM == X5">hobot_llamacpp</depend>
   <depend condition="$PLATFORM == X5">hobot_rtsp_client</depend>
   <depend condition="$PLATFORM == X5">tros_perception_fusion</depend>
   <depend condition="$PLATFORM == X5">tros_lowpass_filter</depend>
