@@ -89,6 +89,8 @@
   <depend condition="$PLATFORM == X5">hobot_dosod</depend>
   <depend condition="$PLATFORM == X5">mono_mobilesam</depend>
   <depend condition="$PLATFORM == X5">mono_pwcnet</depend>
+  <depend condition="$PLATFORM == X5">mono_ocr_detection</depend>
+  <depend condition="$PLATFORM == X5">mono_ocr_recognition</depend>
   <depend condition="$PLATFORM == X5">clip_msgs</depend>
   <depend condition="$PLATFORM == X5">clip_encode_image</depend>
   <depend condition="$PLATFORM == X5">clip_encode_text</depend>
@@ -126,6 +128,8 @@
   <depend condition="$PLATFORM == S100">mono_edgesam</depend>
   <depend condition="$PLATFORM == S100">mono_edgetam_prompt</depend>
   <depend condition="$PLATFORM == S100">mono_edgetam_track</depend>
+  <depend condition="$PLATFORM == S100">mono_ocr_detection</depend>
+  <depend condition="$PLATFORM == S100">mono_ocr_recognition</depend>
   <depend condition="$PLATFORM == S100">websocket</depend>
   <depend condition="$PLATFORM == S100">clip_msgs</depend>
   <depend condition="$PLATFORM == S100">clip_encode_image</depend>
