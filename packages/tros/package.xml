@@ -108,6 +108,7 @@
   <depend condition="$PLATFORM == X5">reid</depend>
   <depend condition="$PLATFORM == X5">palm_detection_mediapipe</depend>
   <depend condition="$PLATFORM == X5">hand_landmarks_mediapipe</depend>
+  <depend condition="$PLATFORM == X5">pointcloud_web_viewer</depend>
 
   <depend condition="$PLATFORM == S100">ai_msgs</depend>
   <depend condition="$PLATFORM == S100">audio_msg</depend>
@@ -144,6 +145,7 @@
   <depend condition="$PLATFORM == S100">reid</depend>
   <depend condition="$PLATFORM == S100">palm_detection_mediapipe</depend>
   <depend condition="$PLATFORM == S100">hand_landmarks_mediapipe</depend>
+  <depend condition="$PLATFORM == S100">pointcloud_web_viewer</depend>
 
   <depend condition="$PLATFORM == S600">ai_msgs</depend>
   <depend condition="$PLATFORM == S600">audio_msg</depend>
@@ -169,6 +171,7 @@
   <depend condition="$PLATFORM == S600">hobot_zed_cam</depend>
   <depend condition="$PLATFORM == S600">hobot_tts</depend>
   <depend condition="$PLATFORM == S600">reid</depend>
+  <depend condition="$PLATFORM == S600">pointcloud_web_viewer</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
